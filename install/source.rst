@@ -226,6 +226,7 @@ older versions. A list of required versions can be found on the
          .. code-block:: sh
 
             $ su - zammad
+            $ cd /opt/zammad
             $ bundle install --without test development postgres
 
 Step 3: Configure database settings
